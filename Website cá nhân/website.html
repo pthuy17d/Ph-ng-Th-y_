@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trang Web Cá Nhân</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 0;
+          justify-content: center;
+        }
+      header {
+            background: linear-gradient(to bottom, #f5f5f5 0%,#ffffff 50%,#000000 100%);
+            color: #333;
+            padding: 20px 0;
+            text-align: center;
+        
+        }
+       
+        header .tagline {
+            font-size: 24px;
+            text-transform: uppercase;
+            color: #777;
+              margin-bottom: 10px; 
+          
+        }
+        header .main-title {
+            font-size: 40px;
+            font-weight: bold;
+            color: #333;
+          margin-bottom: 20px;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #ffffff;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+          display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+            
+        }
+        .profile-image {
+           width: 30%;   
+            object-fit: cover;
+            margin-bottom: 20px;
+        
+        }
+        .hobbies {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+     background-color: #DEEDDD;
+}
+
+.hobby {
+    flex-basis: calc(50% - 10px);
+    margin-bottom: 20px;
+    text-align: center;
+  
+}
+
+.hobby img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+.education {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.school {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.school img {
+    width: 100px; /* Hoặc kích thước mong muốn */
+    height: auto;
+    margin-right: 20px;
+}
+
+.school-info p {
+    margin: 5px 0;
+}
+      form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+input[type="text"] {
+    width: 80%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+      
+    </style>
+</head>
+<body>
+  <header>
+        
+        <div class="tagline">Đây là một chiếc blog</div>
+        <div class="main-title">VỀ BẢN THÂN TÔI</div>
+    </header>
+    <div class="container">
+        <img src="https://cdn.glitch.global/dca63e26-3004-4925-9a82-a90ae3f934e2/z5373185265504_88f703eadcaa08bed848f319ea07cfe5.jpg?v=1714665015835" class="profile-image">
+        <div class="section">
+            <h2>Thông tin cá nhân</h2>
+            <p><strong>Tên:</strong> Nguyễn Ngọc Phương Thùy</p>
+            <p><strong>Sinh nhật:</strong> 15/11/2003</p>
+            <p><strong>Cung:</strong> Bò cạp </p>
+
+        </div>
+       
+        <div class="hobbies">
+    <h2>Sở thích</h2>
+    <div class="hobby">
+        <img src="https://cdn.glitch.global/dca63e26-3004-4925-9a82-a90ae3f934e2/t%E1%BA%A3i%20xu%E1%BB%91ng%20(1).jpg?v=17052169945221g" alt="Du lịch">
+        <p>Đi du lịch</p>
+    </div>
+    <div class="hobby">
+        <img src="https://cdn.glitch.global/dca63e26-3004-4925-9a82-a90ae3f934e2/t%E1%BA%A3i%20xu%E1%BB%91ng%20(2).jpg?v=1705217056824" alt="Nấu ăn">
+        <p>Nấu ăn đồ nữa</p>
+    </div>
+   
+</div>
+       <div class="section education">
+    <h2>Học vấn và kinh nghiệm làm việc</h2>
+    <div class="school">
+        <img src="https://cdn.glitch.global/dca63e26-3004-4925-9a82-a90ae3f934e2/images%20(1).jpg?v=1714666659741" alt="Trường học của bạn">
+        <div class="school-info">
+            <p><strong>Trường:</strong>Đại Học Công Nghiệp TpHCM</p>
+            <p><strong>Chuyên ngành:</strong> THƯƠNG MẠI ĐIỆN TỬ</p>
+            <p><strong>Khóa:</strong> 2021-2025</p>
+            <!-- Thêm thông tin về kinh nghiệm làm việc của bạn ở đây -->
+        </div>
+    </div>
+</div>
+        <div class="section">
+           
+              <div>
+  <h3>
+    Hãy đặt câu hỏi cho tôi </h3>
+  <form>
+    <input type = "text" placeholder= "Điền câu hỏi của bạn"/>
+    <button>Gửi câu hỏi </button>
+  </form>
+        </div>
+    </div>
+  </div>
+</body>
+</html>
